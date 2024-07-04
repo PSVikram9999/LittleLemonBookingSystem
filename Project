@@ -1,0 +1,71 @@
+To successfully complete and submit your Little Lemon Booking System project for peer review, follow these steps:
+
+### Project Submission Checklist:
+
+1. **Create a MySQL Database:**
+   - Design and implement a database schema using MySQL Workbench that includes tables to store booking data and any other relevant information.
+   - Ensure the schema supports the functionality required for managing bookings (e.g., customers, bookings, availability).
+
+2. **Populate Database:**
+   - Insert sample booking data into your MySQL database for testing purposes. This can be done manually using SQL INSERT statements or through scripts.
+
+3. **Implement Procedures:**
+   - Use Python to connect to your MySQL database.
+   - Implement procedures/functions (`GetMaxQuantity`, `ManageBooking`, `UpdateBooking`, `AddBooking`, `CancelBooking`) to interact with the database and manage booking operations.
+
+4. **Connect Tableau:**
+   - Connect Tableau to your MySQL database to access and analyze the booking data.
+   - Create visualizations and dashboards in Tableau to demonstrate your ability to analyze and present data effectively.
+
+5. **Prepare Documentation and Diagrams:**
+   - Generate relevant diagrams such as an ER diagram (Entity-Relationship diagram) showing the structure and relationships of your database tables.
+   - Capture screenshots of your Tableau dashboards and any other relevant outputs in PNG format.
+
+6. **GitHub Repository Setup:**
+   - Create a new GitHub repository to host your project.
+   - Structure your repository to include folders for documentation, SQL files, Python scripts, Tableau workbooks, and any other necessary files.
+
+7. **Commit and Push to GitHub:**
+   - Initialize a git repository in your project folder (if not already initialized):
+     ```bash
+     git init
+     ```
+   - Add all project files to the repository:
+     ```bash
+     git add .
+     ```
+   - Commit the files with a descriptive message:
+     ```bash
+     git commit -m "Initial commit: Added database schema, Python scripts, and Tableau workbook"
+     ```
+   - Link your local repository to the GitHub remote repository you created:
+     ```bash
+     git remote add origin <repository_url>
+     ```
+     Replace `<repository_url>` with the URL of your GitHub repository.
+   - Push the commits to GitHub:
+     ```bash
+     git push -u origin master
+     ```
+
+8. **Write README.md:**
+   - Create a `README.md` file in your repository with detailed instructions on:
+     - How to set up and initialize the database.
+     - Steps to run and test the Python scripts.
+     - Instructions for connecting Tableau to the database and using the workbooks.
+     - Any additional information about your project structure, design decisions, and data analysis insights.
+
+9. **Submit for Peer Review:**
+   - Share the GitHub repository link with your peers for review.
+   - Ensure all required components (diagrams, SQL schema file, Tableau workbook) are accessible and well-documented.
+
+### Peer Review Instructions:
+
+1. **Evaluate Peer Projects:**
+   - Review two projects submitted by your peers according to the criteria provided.
+   - Assess if the GitHub repository was successfully created and structured.
+   - Check if the database schema, procedures/functions, and Tableau analysis meet the project specifications.
+   - Provide constructive feedback on the design, implementation, and documentation.
+   - Suggest improvements or highlight any issues found with recommendations for corrections.
+
+By following these steps, you can prepare and submit your Little Lemon Booking System project effectively for peer review, ensuring clarity, completeness, and adherence to the project requirements.
